@@ -5,5 +5,8 @@
   <% else %>
     <i class="far fa-square"></i>
   <% end %>
-  <%= @task.details  %>
+  <%= @task.details %>
+  
+  <%= link_to 'Edit task', edit_path %>
+  <%= link_to 'Back to list', tasks_path %>
 </p>
